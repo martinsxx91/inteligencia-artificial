@@ -1,0 +1,97 @@
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: #f4f6f8;
+   margin: 0;
+   padding: 30px 20px;
+   color: #333;
+}
+
+
+.container {
+   max-width: 700px;
+   margin: 0 auto;
+   background: #ffffff;
+   padding: 30px;
+   border-radius: 12px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+.breadcrumb {
+   color: #888;
+   font-size: 0.85em;
+   margin-bottom: 5px;
+}
+
+
+h1 {
+   color: #1a1a1a;
+   margin: 0 0 5px 0;
+   font-size: 1.8em;
+}
+
+
+.subtitle {
+   color: #666;
+   font-size: 0.95em;
+   margin-bottom: 30px;
+}
+
+
+.section-title {
+   font-size: 1.1em;
+   font-weight: 600;
+   margin-top: 25px;
+   margin-bottom: 12px;
+   display: flex;
+   align-items: center;
+   gap: 8px;
+}
+
+
+.card {
+   border: 1px solid #e2e8f0;
+   border-radius: 8px;
+   padding: 16px;
+   margin-bottom: 12px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #ffffff;
+   cursor: pointer;
+   transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+
+.card:hover {
+   transform: translateY(-2px);
+   border-color: #cbd5e1;
+}
+
+
+.card-info h3 {
+   margin: 5px 0 3px 0;
+   font-size: 1em;
+   color: #1e293b;
+}
+
+
+.card-info p {
+   margin: 0;
+   font-size: 0.85em;
+   color: #64748b;
+}
+
+
+.tag {
+   padding: 3px 8px;
+   border-radius: 4px;
+   font-size: 0.7em;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+
+.tag-pdf { background-color: #ffebee; color: #c62828; }
+.tag-video { background-color: #e8eaf6; color: #283593; }
+.tag-foto { background-color: #e8f5e9; color: #2e7d32; }

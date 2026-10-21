@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Hub de Materiais - Aula de Genética</title>
+   <!-- Vincula o arquivo CSS externo -->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+   <div class="container">
+       <div class="breadcrumb">Biologia > Genética</div>
+       <h1>Aula de Genética</h1>
+       <p class="subtitle">8 materiais disponíveis</p>
+
+
+       <!-- Seção PDFs de Aula -->
+       <div class="section-title">📄 PDFs de Aula (2)</div>
+       <div class="card" onclick="abrirMaterial('Apostila - Primeira Lei de Mendel')">
+           <div class="card-info">
+               <span class="tag tag-pdf">PDF</span>
+               <h3>Apostila - Primeira Lei de Mendel</h3>
+               <p>12 páginas • 01/02/2026</p>
+           </div>
+       </div>
+
+
+       <!-- Seção Vídeos do YouTube -->
+       <div class="section-title">▶️ Vídeos do YouTube (2)</div>
+       <div class="card" onclick="abrirMaterial('Aula completa - Genética Básica')">
+           <div class="card-info">
+               <span class="tag tag-video">Vídeo</span>
+               <h3>Aula completa - Genética Básica</h3>
+               <p>45 minutos • 31/01/2026</p>
+           </div>
+       </div>
+
+
+       <!-- Seção Fotos da Lousa -->
+       <div class="section-title">📷 Fotos da Lousa (2)</div>
+       <div class="card" onclick="abrirMaterial('Lousa - Quadro de Punnett')">
+           <div class="card-info">
+               <span class="tag tag-foto">Foto</span>
+               <h3>Lousa - Quadro de Punnett</h3>
+               <p>01/02/2026</p>
+           </div>
+       </div>
+   </div>
+
+
+   <!-- Vincula o arquivo JavaScript externo -->
+   <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+script.js
+// Função para simular a abertura de um material de estudo
+function abrirMaterial(nomeMaterial) {
+   alert("Abrindo o material: " + nomeMaterial);
+}
+
+
+// Log no console indicando carregamento do hub de estudos
+document.addEventListener("DOMContentLoaded", () => {
+   console.log("Hub de Materiais de Genética carregado com sucesso!");
+});
